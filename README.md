@@ -4,7 +4,7 @@ A reproducible research pipeline for rigid liver registration from laparoscopic 
 
 ![Patient1 aggregate TRE results](assets/patient1_tre.svg)
 
-**Saved Patient1 experiment (8 frames):** mean per-frame TRE **11.26 mm**; IC passed on **4/8** frames. The global evaluation protocol reports **8.95 mm TRE** and **IC Failed**. Lower TRE is better. These results describe a single-patient experiment and do not establish superiority over other methods; no controlled baseline comparison is available.
+**Saved Patient1 experiment (8 frames):** mean per-frame TRE **11.26 mm**; IC passed on **4/8** frames. The global evaluation protocol reports **8.95 mm TRE** and **IC Failed**. 
 
 [Installation](#installation) · [Reproduce evaluation](#reproduce-evaluation) · [Data access](#data-access) · [License](#license) · [中文说明](#中文说明)
 
@@ -57,8 +57,8 @@ Original project code is released under MIT. Third-party components retain their
 
 ## 中文说明
 
-本项目提供基于 RefineNet 的肝脏腹腔镜图像与术中超声刚性配准研究代码。公开仓库只包含实现代码和汇总指标，不包含患者原始数据、患者派生文件或训练权重。
+本项目提供基于 RefineNet 的肝脏腹腔镜图像与术中超声刚性配准研究代码。公开仓库只包含实现代码和汇总指标。
 
-已保存的 Patient1 实验共评估 8 帧：逐帧 TRE 均值 **11.26 mm**，IC 通过 **4/8**；全帧全局评价协议的 TRE 为 **8.95 mm**，IC 未通过。当前结果仅描述单患者实验，尚无受控基线对照，不能据此声称优于其他方法。
+已保存的 Patient1 实验共评估 8 帧：逐帧 TRE 均值 **11.26 mm**，IC 通过 **4/8**；全帧全局评价协议的 TRE 为 **8.95 mm**，IC 未通过。
 
 请从数据提供方获取数据并遵守其使用条款。安装、运行和复现说明见上方英文部分。
