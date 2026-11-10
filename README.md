@@ -1,6 +1,6 @@
 # 3D–2D Rigid Registration
 
-A reproducible research pipeline for rigid liver registration from laparoscopic imagery and ultrasound, built around iterative RefineNet pose refinement. This repository contains the implementation and aggregate experiment metrics; patient data, derived patient files, and trained checkpoints are excluded.
+A reproducible research pipeline for rigid liver registration from laparoscopic imagery and ultrasound, built around iterative RefineNet pose refinement. This repository contains the implementation and aggregate experiment metrics.
 
 ![Patient1 aggregate TRE results](assets/patient1_tre.svg)
 
