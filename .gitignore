@@ -1,0 +1,11 @@
+# Patient-specific and generated material
+/data/raw/
+/data/processed/
+/experiments/
+/results/
+/weights/
+/*.pdf
+__pycache__/
+*.py[cod]
+.venv/
+venv/
